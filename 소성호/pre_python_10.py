@@ -15,6 +15,6 @@ def factorial(a):
     for i in range(1,a+1):
         result = result*i
 
-    print(result)
+    return result
 
-factorial(5)
+print(factorial(5))
