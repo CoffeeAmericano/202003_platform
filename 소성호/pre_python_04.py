@@ -6,13 +6,11 @@ print(Triangle(10,20))
 <출력>
 100
 """
-def func():
-    a = int(input("삼각형의 가로: "))
-    b = int(input("삼각형의 높이: "))
+def Triangle(a,b):
 
     c = a*b/2
 
-    print(c)
+    return c
 
-func()
+print(Triangle(10,20))
     
