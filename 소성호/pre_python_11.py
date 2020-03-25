@@ -25,8 +25,9 @@ def gcd(a,b):
             if a_list[i] == b_list[k]:
                 common_list.append(a_list[i])
 
-    print(max(common_list))
+    return max(common_list)
 
-gcd(12,6)
+print(gcd(12,6))
         
     
+
